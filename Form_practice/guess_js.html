@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<body> 
+<h1>guessing game...!!!</h1>
+<p>enter the number between 0 and 5 </p>
+<input type="text" id="textinput">
+<button id="mybutton">guess</button>
+<p id="number"></p>
+<p id="ans"></p>
+<script>
+document.getElementById("mybutton").onclick=
+function(){
+
+var num1 = Math.random() * 5;
+num1 = Math.floor(num1);
+var num = document.getElementById("textinput").value;
+if(num1==num)
+{document.getElementById("number").innerHTML="number is" + " " + num1;
+document.getElementById("ans").innerHTML="you got it right";
+}
+else
+{document.getElementById("number").innerHTML="number is" + " " + num1;
+document.getElementById("ans").innerHTML="you got it wrong";
+}
+}
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+body{margin:0;
+padding:0;
+font-family:helvitica,arial,sans-serif;
+}
+#topbar{float:top;
+width:1000px;
+margin:0 auto ;
+height:43px;
+}
+#logo{width:85px;
+height:24px;
+margin:8px auto;  
+margin-left:3px;
+float:left;}
+.topbar-section{
+float:left;
+border-left:1px #cccccc solid;
+height:100%; 
+margin-left:12px;
+
+}
+.topbar-menu{font-weight:bold;
+font-size:90%;
+padding-top:12px;
+padding-left:11px;
+height:30px;
+
+}
+#signin-image{float:left;
+margin:8px auto;
+margin-left:9px;
+
+}
+#signin-text{ float:left;
+font-size:90%;
+font-weight:bold;
+
+position:relative;
+top:12px;
+padding-right:40px;
+}
+#arrow{width:13px;
+margin-left:30px;
+}
+#searchbox{height:25px;
+float:left;
+background-color:#E4E4E4;
+border:none;
+margin-left:10px;
+margin-top:9px;
+font-weight:bold;
+font-size-80%;
+padding-left:4px;
+}
+#searchsign{
+position:relative;
+top:9px;
+height:25px;
+}
+.clear{
+clear:both;
+}
+#menu-section{width:100%;
+background-color:#BB1919;
+height:70px;
+}
+#menu-text{
+width:1000px;
+margin:0 auto;
+}
+#menubar{
+width:1000px;
+margin:0 auto;
+}
+h1{margin:0;
+padding:0; 
+font-weight:normal;
+color:white;
+padding-top:8px;
+font-size:45px;
+}
+#menudown{
+width:100%;
+height:35px;
+background-color:#A91717;
+}
+#menudownbar{
+width:1000px;
+margin:0 auto;
+
+}
+#menudownbar a{text-decoration:none;
+padding:0 8px;
+border-right:1px solid #BB4545;
+position:relative;
+top:8px;
+font-size:15px;
+color:white;
+} 
+#menudownbar a:hover{
+text-decoration:underline;
+} 
+.noborder{
+border:none !important;
+}
+#downarrow{
+width:14px;
+position:relative;
+top:8px;
+}
+#technologybox{
+width:1000px;
+margin:0 auto;
+}
+h2{
+font-size:18px;
+border-bottom:2px solid #BB1919;
+width:100px;
+}
+h3 a{
+text-decoration:none;
+font-size:30px;
+font-weight:Bold;
+color:black;
+}
+h3 a:hover{
+color:blue;
+}
+#maintext{
+width:640px;
+font-weight:lighter;
+
+}
+#clockimg{
+width:20px;
+height:20px;
+position:relative;
+top:3px;
+}
+#afterdate{color:#A91717;
+text-decoration:none;
+border-left:1px solid #cccccc;
+padding-left:4px; }
+#afterdate:hover{color:blue;}
+#maintext p{
+width:250px;
+}#articleimg{float:right;
+width:370px;
+height:200px;
+position:relative;
+bottom:130px;
+}
+#lastlinkmaintext{color:black;
+text-decoration:none}
+#lastlinkmaintext:hover{
+color:blue;}

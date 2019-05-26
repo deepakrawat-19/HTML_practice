@@ -1,0 +1,116 @@
+<html>
+<head>
+<script type="text/javascript" src="jquery3.1.js"></script>
+<title>forms1</title>
+<style>
+
+#box{
+width:500px;
+height:600px;
+border:3px solid #0C090A;
+border-radius:3%;
+position:relative;
+left:350px;
+background-color:#E5E4E2;
+}
+#topbox{
+height:100px;
+width:497px;
+background-color:red;
+border-radius:7px;
+
+
+border:2px solid black;
+
+}
+#toptext{color:white;
+font-size:50px;
+font-family:helvertica sans-serif;
+position:relative;
+bottom:30px;
+left:130px;
+font-weight:bold;
+}
+#form{
+width:100px;
+margin-left:5px;
+margin-top:5px;
+}
+input{width:320px;
+font-size:20px;
+padding:5px 10px 5px 3px;
+border-radius:5px;
+}
+label{font-size:20px;
+font-weight:bold;
+postion:relative;
+top:10px;
+left:40px;
+float:left;
+}
+#submit{position:relative;
+top:15px;
+left:2px;
+font-family:helvertica;
+font-weight:bold;
+border-radius:5px;
+width:140px;
+font-size:23px;
+}
+#emailbox{;color:red;
+font-family:sans-serif;
+
+}
+#namebox{;color:red;
+font-family:sans-serif;
+
+}
+#passwordbox{;color:red;
+font-family:sans-serif;
+
+}
+#confirmpassbox{;color:red;
+font-family:sans-serif;
+
+}
+#mobilebox{;color:red;
+font-family:sans-serif;
+
+}
+#result{position:relative;
+top:5px;
+color:blue;
+font-family:sans-serif;
+font-weight:bolder;
+
+}
+
+
+
+
+</style>
+
+<body>
+<div id="box">
+<div id="topbox">
+<p id="toptext">Sign Up..!!</p>
+</div>
+<div id="form">
+
+<label for="name" >Full Name</label>
+<input type="text" name="name" id="name" placeholder="Enter name"><p id="namebox"></p>
+<label for="email" >Email</label>
+<input type="text" name="email" id="email" placeholder="assd@email.com"><p id="emailbox"></p>
+<label for="mobile no.">Mobile No.</label>
+<input type="text" name="mobile no." id="mobile no." placeholder="0123456789"><p id="mobilebox"></p>
+<label for="password" >Password</label>
+<input type="password" name="password" id="password"><p id="passwordbox"></p>
+<label for="confirmpass" >Confirm Password</label>
+<input type="password" name="confirmpass" id="confirmpass"><p id="confirmpassbox"></p>
+<button id="submit">Sign Up</button>
+<p id="result"></p>
+</div>
+</div>
+</body>
+</head>
+<html>

@@ -1,0 +1,67 @@
+body{
+	margin: 0 auto;
+	background-image: url("bg.jpg"); 
+	background-size: 100% 45em;
+	background-repeat: no-repeat;
+}
+.container{
+	margin: 0 auto;
+	background-color: #009688;
+	opacity: 0.9;
+	width: 28.125em;
+	height: 18.75em;
+	border-radius: 0.25em;
+	text-align: center;
+	margin-top: 6.25em;
+
+}
+input{
+	background-color: #FFF;
+	margin: 0 auto;
+	margin-top: 2.1875em;
+	margin-bottom: 1.875em;
+	padding: 0.3125em;
+	height: 1.5625em;
+	padding-left: 1em;
+	border: none;
+
+}
+#icon{
+	height: 6.25em;
+	width: 6.25em;
+	margin-top: -3.125em;
+	margin-bottom: -1.5625em;
+}
+input[type="submit"]{
+	height: 2.1875em;
+	padding-right: 15px;
+	margin-top: 1.875em;
+	background-color: #FFC107;
+	border: none;
+	color: #FFF;
+	border-radius: 0.25em;
+	border-bottom: 0.25em solid #FFB300;
+}
+input[type="text"]{
+	margin-top: 2.8125em;
+	background-image: url("https://answers.atlassian.com/images/icons/profilepics/default.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-left: 2.5em;
+}
+div.form-input{
+	height: 4.375em;
+}
+input[type="password"]{
+	margin-top: 2.5em;
+	background-image: url("http://2.bp.blogspot.com/-ENJwau760LE/VnwTQYFz5CI/AAAAAAAABnM/_syY_JkxrIs/s1600/unnamed%2B%25282%2529.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-left: 2.5em;
+
+
+}
+p,a{
+	color: #FFF;
+	margin-top: -0.625em;
+}
